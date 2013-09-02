@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.hellocordova" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloCordova</name>
+    <name>Urban Airship Sample</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
@@ -31,7 +31,7 @@
     <cdv:splash cdv:platform="ios" height="960" src="res/screen/iphone_retina_portrait.png" width="640" />
     <cdv:splash cdv:platform="winphone" height="800" src="res/screen/windows_phone_portrait.jpg" width="480" />
     <feature name="http://api.phonegap.com/1.0/device" />
-    <preference name="phonegap-version" value="1.9.0" />
+    <preference name="phonegap-version" value="3.0.0" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
