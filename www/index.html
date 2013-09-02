@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
   <head>
@@ -29,16 +29,16 @@
         // Registration callback
         var onRegistration = function(error, pushID)  {
           if (!error) {
-            console.log("Reg Success: " + pushID)
+            alert("Reg Success: " + pushID)
             $('#id').text(pushID)
           } else {
-            console.log(error)
+              alert(error)
           }
         }
 
         // push event callback
         var onPush = function(data) {
-          console.log("Received push: " + data.message)
+            alert("Received push: " + data.message)
         }
 
         // Register for any registration events
@@ -122,7 +122,7 @@
 
         push.getPushID(function(id) {
           if(id) {
-             console.log("Got push ID: " + id)
+             alert("Got push ID: " + id)
              $('#id').text(id)
           }
         })
